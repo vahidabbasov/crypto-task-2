@@ -1,0 +1,125 @@
+*{
+    font-family: Poppins, sans-serif;
+    
+}
+
+.crLogo{
+    width: 30px
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.td{
+    text-align: center;
+    padding: 15px 5px;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-spacing: 0px;
+}
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    width: 100%;
+}
+
+.container{
+    width: 1050px;
+    height: fit-content;
+    background-color: rgb(207, 216, 220);
+    border-radius: 5px;
+    padding: 8px 20px;
+    box-shadow: rgb(255 255 255) 0px 3px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.container__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    margin: 0px;
+    padding: 10px 0px;
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(75, 99, 110);
+}
+.container__content{
+    width: 98%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 600px;
+    box-shadow: rgb(255 255 255 / 50%) 0px 3px 5px;
+    overflow: auto;
+    font-family: Poppins, sans-serif;
+    background-color: white;
+}
+
+.container__content::-webkit-scrollbar {
+    width: 18px;
+  }
+  
+  /* Track */
+  .container__content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+ .container__content::-webkit-scrollbar-thumb {
+    background: rgb(120,144,156); 
+    border-radius: 10px;
+  }
+  .btn:hover{
+    background-color: rgb(198, 194, 194);
+  }
+  .btn{
+    transition: 0.5s;
+  }
+  i{
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn:hover i{
+    transform: scale(1.4);
+
+  }
+  input{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: rgb(255 255 255 / 60%) 0px 4px 12px;
+  }
+  .input{
+    position: relative;
+  }
+
+  .searchIcon{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 4px;
+    color: black;
+  }
