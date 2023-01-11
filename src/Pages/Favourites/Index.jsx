@@ -19,7 +19,7 @@ const dispatch = useDispatch();
         
         }
         {
-          products.length==0 &&
+          products.length===0 &&
           <h1 style={{color:'black'}}>No items yet...</h1>
         }
         
