@@ -52,8 +52,8 @@ function Index() {
               <th>Rank</th>
               <th>Coin Name</th>
               <th>Price</th>
-              <th>Price Change</th>
-              <th>Market Cap</th>
+              <th className="priceChange">Price Change</th>
+              <th className="market">Market Cap</th>
               <th>Add To Fav</th>
             </tr>
           </thead>
@@ -90,7 +90,7 @@ function Index() {
 
                     </b>
                   </td>
-                  <td className="td" style={{color: "grey", fontSize:"16px", fontWeight:"500"}}>
+                  <td className="td market" style={{color: "grey", fontSize:"16px", fontWeight:"500"}}>
                     {"$"}
                     {product.market_cap}
                   </td>

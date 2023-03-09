@@ -41,6 +41,13 @@ ul{
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width:474px) {
+    ul{
+        width: 100px;
+        flex-direction: column;
+    }
+}
 .mid{
     display: flex;
     justify-content: center;
